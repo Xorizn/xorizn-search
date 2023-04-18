@@ -8,6 +8,8 @@ const axios = require('axios'),
   util = require('util'),
   wiki = require('wikipedia'),
   develop = '@xorizn';
+
+const { book, __dirNumber } = require('../lib/object.json')
 //Func is URL
 const isUrl = (url) => {
   try {
