@@ -43,11 +43,11 @@
 
 
 ## Example and params
+
+### API SEARCH
 ```
   GET api/search/:param
 ```
-### API SEARCH
-
 | Param          | query     | Method | Example  |
 | :----------    | :-------  | :--    | :--      |
 | `/youtube`   | `search`     | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/search/youtube?search=zee) |
@@ -71,7 +71,7 @@
 | `/google/search`    | `search`     | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/search/google/search?search=naruto) |
 | `/google/image`    | `search`     | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/search/google/image?search=naruto) |
 
-## API TV
+### API TV
 ```
   GET api/tv/:param
 ```
