@@ -77,8 +77,8 @@
 ```
 | Param          | query     | Method | Example  |
 | :----------    | :-------  | :--    | :--      |
-| `/acaranow`    |      | GET    | [EXAMPLE]() |
-| `/sepakbola`   |      | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/tv/acaranow) |
+| `/acaranow`    |      | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/tv/acaranow) |
+| `/sepakbola`   |      | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/tv/sepakbola) |
 | `/jadwal`    | `search`: *gtv*, *antv*, *indosiar*, *inewstv*, *kompastv*, *metrotv*, *mnctv*, *moji*, *nettv*, *rcti*, *rtv*, *sctv*, *trans7*, *transtv*, *tvone*, *tvri*     | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/tv/jadwal?search=antv) |
 
 ## Installation
