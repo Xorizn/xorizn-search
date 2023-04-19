@@ -43,7 +43,7 @@
 
 
 ## Example and params
-```http
+```
   GET api/search/:param
 ```
 ### API SEARCH
@@ -72,7 +72,7 @@
 | `/google/image`    | `search`     | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/search/google/image?search=naruto) |
 
 ## API TV
-```http
+```
   GET api/tv/:param
 ```
 | Param          | query     | Method | Example  |
