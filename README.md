@@ -27,7 +27,7 @@
 - `api/search/link-grup-wa`
 - `api/search/kbbi`
 - `api/search/nomina`
-- ~~`api/search/kodepos`~~
+- `api/search/kodepos`
 - `api/search/steam`
 - `api/search/bukalapak`
 - `api/search/xpanas`
@@ -62,7 +62,7 @@
 | `/link-grup-wa`    | `search`     | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/search/link-grup-wa?search=anime) |
 | `/kbbi`    | `search`     | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/search/kbbi?search=aku) |
 | `/nomina`    | `search`     | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/search/nomina?search=aku) |
-| ~~`/kodepos`~~    | `search`     | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/search/kodepos?search=jakarta) |
+| `/kodepos`    | `search`     | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/search/kodepos?search=jakarta) |
 | `/steam`    | `search`     | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/search/steam?search=dota2) |
 | `/bukalapak`    | `search`     | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/search/bukalapak?search=baju) |
 | `/xpanas`    | `search`     | GET    | [EXAMPLE](https://xorizn-search.vercel.app/api/search/xpanas?search=china) |
