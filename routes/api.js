@@ -24,7 +24,7 @@ const PromiseRes = (hasil) => {
 }
 
 //Module downloads
-const { Yt_Search, XPanas, WikiMedia, SoundCloudeS, RingTone, PlayStore, Lirik, GoogleS, GoogleImages, BukaLapak, AcaraNow, Jadwal_Sepakbola, JadwalTV, Steam, Steam_Detail, WattPad, LinkWa, Lirik2, KBBI, Nomina, KodePos } = require('../lib/search')
+const { Yt_Search, XPanas, KodePos2, WikiMedia, SoundCloudeS, RingTone, PlayStore, Lirik, GoogleS, GoogleImages, BukaLapak, AcaraNow, Jadwal_Sepakbola, JadwalTV, Steam, Steam_Detail, WattPad, LinkWa, Lirik2, KBBI, Nomina, KodePos } = require('../lib/search')
 
 //function
 const mess = {
@@ -171,6 +171,16 @@ router.get('/search/kodepos', async (req, res, next) => {
     const search = req.query.search;
     if (!search) return res.json(mess.null_search)
     let hasil = await KodePos(search)
+    res.json(PromiseRes(hasil)).status(200)
+  } catch (err) {
+    res.status(500).json({ developer: develop, mess: `${err.toString()}. Report this error to Developer(Xorizn)` })
+  }
+})
+router.get('/search/kodepos/v2', async (req, res, next) => {
+  try {
+    const search = req.query.search;
+    if (!search) return res.json(mess.null_search)
+    let hasil = await KodePos2(search)
     res.json(PromiseRes(hasil)).status(200)
   } catch (err) {
     res.status(500).json({ developer: develop, mess: `${err.toString()}. Report this error to Developer(Xorizn)` })
