@@ -63,7 +63,7 @@ router.get('/search/wikipedia', async (req, res, next) => {
   try {
     const search = req.query.search;
     if (!search) return res.json(mess.null_search)
-    const searchWi = await wiki.search('sulahan');
+    const searchWi = await wiki.search(search);
     const page = await wiki.page(searchWi.results[0].pageid);
     const summary = await page.summary();
     const hasil = {
